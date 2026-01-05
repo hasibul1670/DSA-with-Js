@@ -1,0 +1,6 @@
+- `let` → block-scoped, can be reassigned (use for loops)
+- `var` → function-scoped, outdated, avoid using
+- `const` → block-scoped, cannot be reassigned (use by default)
+- `const` objects/arrays can change internally
+- `int` → NOT valid in JavaScript
+- JavaScript has no fixed integer types

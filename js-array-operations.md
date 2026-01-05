@@ -1,0 +1,27 @@
+# JavaScript Array Operations (Quick Notes)
+
+- Create → `const arr = [1, 2, 3]`
+- Access → `arr[i]`
+- Update → `arr[i] = x`
+- Length → `arr.length`
+- Push (end) → `arr.push(x)`
+- Pop (end) → `arr.pop()`
+- Unshift (start) → `arr.unshift(x)`
+- Shift (start) → `arr.shift()`
+- Insert/Delete → `arr.splice(i, n, x)`
+- Slice copy → `arr.slice(l, r)`
+- Merge → `arr.concat(arr2)`
+- Loop → `for / for...of`
+- Map → `arr.map(fn)`
+- Filter → `arr.filter(fn)`
+- Reduce → `arr.reduce(fn, init)`
+- Find → `arr.find(fn)`
+- Find index → `arr.findIndex(fn)`
+- Includes → `arr.includes(x)`
+- Index of → `arr.indexOf(x)`
+- Sort → `arr.sort()`
+- Reverse → `arr.reverse()`
+- Join → `arr.join(sep)`
+- String → `arr.toString()`
+- Clear → `arr.length = 0`
+- Copy → `[...arr]`
