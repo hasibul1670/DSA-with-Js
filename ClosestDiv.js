@@ -25,3 +25,34 @@ function ClosestDiv(n, m) {
 }
 
 console.log(ClosestDiv(13, 4));
+
+
+// START
+//   ↓
+// Input n, m
+//   ↓
+// Compute r = n % m
+//   ↓
+// Compute a = n - r   (first multiple)
+//   ↓
+// Compute b1 = a + m
+// Compute b2 = a - m
+//   ↓
+// Compute distances:
+// d1 = |n - a|
+// d2 = |n - b1|
+// d3 = |n - b2|
+//   ↓
+// Find minimum distance among d1, d2, d3
+//   ↓
+// Is only ONE number having minimum distance?
+//   ↓           ↓
+//  YES          NO (tie)
+//  ↓             ↓
+// Return that   Among tied numbers,
+// number        choose one with
+//               maximum |value|
+//                  ↓
+//               Return it
+//   ↓
+// END
